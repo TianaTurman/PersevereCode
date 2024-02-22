@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Patient Form</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="title"></header>
+
+  <h1>hello world</h1>
+  
+  <!-- form -->
+  <form class="container" action="" method="POST">
+    <!-- first name -->
+    <label for="first-name">Enter First Name</label>
+    <input id="first-name" type="text" name="first=name" placeholder="enter first name">
+
+    <!-- last name -->
+    <label for="last-name">Enter Last Name</label>
+    <input id="last-name" type="text" name="last-name" required>
+
+    <!-- email -->
+    <label for="email">Enter Email</label>
+    <input id="email" type="email" name="email" required>
+
+    <!-- address -->
+    <!-- city -->
+    <fieldset>
+      <legend>Enter Address</legend>
+      <label for="city">City</label>
+      <input id="city" type="text" name="city">
+      <!-- state -->
+      <label for="state">State</label>
+      <input id="state" type="text" name="state">
+      <!-- zipcode -->
+      <label for="zipcode">Zipcode</label>
+      <input id="zipcode" type="text" name="zipcode">
+    </fieldset>
+
+    <!-- gender -->
+    <label for="">Gender</label>
+    <label for="">
+      <input id="female" type="radio" name="gender" value="female">
+      female </label>
+    <label for="">
+      <input id="male" type="radio" name="genders" value="male">Male
+    </label>
+
+    <!-- additional info -->
+    <label for="info">Add Addditional Information</label>
+    <textarea name="info" id="info" cols="30" rows="10"></textarea>
+
+    <!-- submit button -->
+    <input type="submit" value="Submit Form">
+
+
+
+
+  </form>
+
+
+
+
+</body>
+
+</html>
