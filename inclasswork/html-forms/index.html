@@ -6,23 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Patient Form</title>
+  <script href="script.js"></script>
 </head>
 
 <body>
   <!-- header -->
   <div class="title"></div>
 
-  
+  <h1>hello world</h1>
   
   <!-- form -->
   <form class="container" action="" method="POST">
     <!-- first name -->
     <label for="first-name">Enter First Name</label>
-    <input id="first-name" type="text" name="first=name" placeholder="enter first name">
+    <input id="first-name" type="text" name="first=name" placeholder="enter name">
 
     <!-- last name -->
     <label for="last-name">Enter Last Name</label>
-    <input id="last-name" type="text" name="last-name" required>
+    <input id="last-name" type="text" name="last-name" placeholder="enter name" required>
+
+    <input id="last-name" type="password" name="last-name" minlength="10" required>
 
     <!-- email -->
     <label for="email">Enter Email</label>
@@ -53,10 +56,11 @@
 
     <!-- additional info -->
     <label for="info">Add Addditional Information</label>
-    <textarea name="info" id="info" cols="30" rows="10"></textarea>
+    <textarea name="info" id="textarea" class="info" height="scroll-height"></textarea>
 
     <!-- submit button -->
     <input type="submit" value="Submit Form">
+    <button><i><strong>Click here</strong></i></button>
 
 
 

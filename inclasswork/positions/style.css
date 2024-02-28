@@ -1,0 +1,27 @@
+#parent {
+    background-color: yellow;
+    height: 500px;
+    
+   
+}
+
+.red {
+    background-color: red;
+    width: 100px;
+    height:100px;
+}
+
+.blue {
+    background-color: blue;
+    width: 100px;
+    height:100px;
+    
+    
+   
+}
+
+.green {
+    background-color: green;
+    width: 100px;
+    height:100px;
+}

@@ -1,3 +1,6 @@
+body {
+    background-image: url(images/dental-kids-medical-office-logo-design-image-vector-27248851.jpg);
+}
 .title {
     background-image: url(images/the-doctors-office-logo.png);
     background-repeat: no-repeat;
@@ -6,17 +9,17 @@
     margin-bottom: 5em;
     padding: 90px;
     border: 2px solid black;
+    text-align: center;
+
 }
 
 h1 {
-    padding:100px;
-    border: 2px solid black;
-    margin: 100px;
-    background-color: rgb(117, 117, 167);
+    margin:0;
+    
 }
 
 form {
-    background-color: rgb(25, 108, 152);
+    background-color: hsl(139, 61%, 45%)
 }
 
 .container {
@@ -24,5 +27,23 @@ form {
     flex-direction: column;
     width: 50%;
     margin: 0 auto;
-   
-    }
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    border: 5px solid black;
+    
+
+}
+
+fieldset {
+    padding: 50px 10px  ;
+}
+
+/* .textarea {
+    height: 4rem;
+    width: 16rem;
+
+
+} */
