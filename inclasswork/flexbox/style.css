@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    background-color: #ca1c1c;
+}
+/* this is styling all of the children
+nested in the container
+(*) is called the wild card or universal selector */
+.container > * {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.header {
+    background: tomato;
+    
+}
+
+.main {
+    text-align: left;
+    background: deepskyblue;
+    height: 300px;
+    font-size: 24px;
+    /* flex is shorthand for flex-grow, flex-shrink, flex-basis */
+    flex: 1 400px ;
+    /* default order is zero */
+    order: 2;
+}
+
+.aside {
+    flex: 1;
+    
+}
+.aside1 {
+    background: gold;
+    order:1;   
+}
+
+.aside2 {
+    background: hotpink;
+    order:2;
+}
+
+.footer {
+    background: lightgreen;
+    height: 80px;
+    order: 4;
+}
+
+
+
+
+
+
+
+
+ /* @media all and (max-width: 800px){
+    .main{
+        background: pink;
+        
+    }
+
+    .aside1{
+        font-family: fantasy;
+    }
+
+    .aside2{
+        border: 10px solid black;
+    }
+
+} */
+
+/* @media all and (min-width: 600px){
+    .aside{
+        flex: 1;
+    }
+
+}  */
+
