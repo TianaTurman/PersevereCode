@@ -1,21 +1,27 @@
-.container {
+.Container {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
-    background-color: #ca1c1c;
+    background-color: #4d1c13;
 }
 /* this is styling all of the children
 nested in the container
 (*) is called the wild card or universal selector */
-.container > * {
-    padding: 10px;
-    margin: 10px;
+.Container > * {
+    padding: 60px;
+    margin: 20px;
     flex: 1 100%;
-    border-radius: 10px;
+    border-radius: 50px;
+   
 }
 
+.Container .header {
+    border: 10px solid red;
+}
+
+
 .header {
-    background: tomato;
+    background: lime;
     
 }
 
@@ -48,19 +54,34 @@ nested in the container
     background: lightgreen;
     height: 80px;
     order: 4;
+    
 }
 
 
 
+ ul{
+    
+    list-style-type: none;
+    
+}
+
+li::after{
+   content: "😀 ";
+}  
 
 
 
 
 
- /* @media all and (max-width: 800px){
+
+
+
+
+
+ @media all and (min-width: 600px){
     .main{
-        background: pink;
-        
+        background: rgb(214, 9, 44);
+        font-size: 20px;
     }
 
     .aside1{
@@ -69,14 +90,18 @@ nested in the container
 
     .aside2{
         border: 10px solid black;
+       order: 1;
+    } 
+    
+    .footer {
+        padding: 10px;
     }
+} 
 
-} */
-
-/* @media all and (min-width: 600px){
+ @media all and (min-width: 600px){
     .aside{
         flex: 1;
     }
 
-}  */
+}  
 
