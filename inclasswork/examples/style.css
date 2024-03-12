@@ -1,4 +1,9 @@
 /* flex container */
+body {
+    background-color: rgb(254, 29, 172);
+    color: black;
+}
+
 main {
    text-align: justify;
     font-family: monospace;
@@ -14,9 +19,7 @@ img {
     height: 50%;
     width: 50%;
     margin: auto;
-    display: block;
-    
-    
+    display: block; 
 }
 
 section {
@@ -25,10 +28,7 @@ section {
 
 }
 
-body {
-    background-color: rgb(254, 29, 172);
-    color: black;
-}
+
 
 a:hover {
     float: right;
@@ -39,6 +39,8 @@ a:hover {
     img {
         float: left;
         margin-right:7.5px;
+       
+
     }
 
     main {
