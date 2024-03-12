@@ -54,7 +54,9 @@ nested in the container
     background: lightgreen;
     height: 80px;
     order: 4;
-    
+    background-image: url(images/Sketching_Basics_for_Kids_-_Blog_600x.jpg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
 }
 
 
@@ -65,9 +67,40 @@ nested in the container
     
 }
 
-li::after{
-   content: "😀 ";
-}  
+li {
+    background-size: 20px;
+}
+
+
+
+    li::before {
+        content: '';
+        display: inline-block;
+        margin-right: 10px;
+
+        /* Height of the list image*/
+        height: 70px;
+
+        /* Width of the list image*/
+        width: 60px;
+        background-image: url(images/Sketching_Basics_for_Kids_-_Blog_600x.jpg);
+        background-size: contain;
+        border-radius: 10px;
+    }
+   
+
+
+img {
+
+}
+
+
+/* ::marker {
+    height: 20px;
+    width:20px;
+} */
+
+ 
 
 
 

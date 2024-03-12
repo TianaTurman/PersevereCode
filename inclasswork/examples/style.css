@@ -1,16 +1,50 @@
-.header {
-    background-color: blueviolet;
-    border: 10px solid black;
+/* flex container */
+main {
+   text-align: justify;
+    font-family: monospace;
+    padding: 5% 10%;
+
 }
 
-.header2 {
-font-size: 100px;
+h1,h2,h3{
+    text-align: center;
 }
 
-.header1 {
-    font-size: 12px;
+img {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    display: block;
+    
+    
 }
 
- {
+section {
 
+    font-family: cursive;
+
+}
+
+body {
+    background-color: rgb(254, 29, 172);
+    color: black;
+}
+
+a:hover {
+    float: right;
+    cursor: grab;
+}
+
+@media screen and (max-width:600px ) {
+    img {
+        float: left;
+        margin-right:7.5px;
+    }
+
+    main {
+        text-align: center;
+         font-family: monospace;
+         padding: 5% 10%;
+     
+     }
 }
