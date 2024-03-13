@@ -3,5 +3,24 @@ table {
     width: 100vw;
     height: 100vh;
     background-color: rgba(108, 149, 162, 0.676);
+    
   
 }
+th, td {
+    font-size:2rem ;
+}
+
+td {
+   border: 1px solid rgb(83, 72, 0);
+    height: 13%;
+    width: 13%;
+    vertical-align: top;
+    color: blue;
+}
+
+.weekend {
+    color:green
+}
+
+
+
