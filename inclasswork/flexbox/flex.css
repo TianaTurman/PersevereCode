@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main container with Flexbox */
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px; /* Space between items */
+}
+
+/* Section styling */
+section {
+    flex: 3; /* Takes up more space */
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Aside styling */
+aside {
+    flex: 1; /* Smaller than the main section */
+    background: #eaeaea;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        background-color: red;
+        
+    }
+
+    section, aside {
+        flex: 1;
+    }
+}

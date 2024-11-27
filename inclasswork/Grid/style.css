@@ -18,39 +18,48 @@ h1 {
     grid-template-rows:75% 1fr 1fr 1fr;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-    
-    
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "about-me contact-me"
+    "section section"
+    "footer footer";
+      
 }
 
 .box1 {
-    background-color: rgb(123, 0, 255);
+    grid-area: nav;
+    background-color: rgba(121, 31, 218, 0.904);
     background-size: contain;
     background-repeat: no-repeat;
  
 }
 
 .box2 {
+    grid-area: header;
     background-color: rgb(251, 255, 0);
-
 }
 
 .box3{
+    grid-area: about-me;
     background-color: rgb(255, 0, 162);
     
 }
 
 .box4 {
+    grid-area: contact-me;
     background-color: rgb(0, 255, 26);
   
 }
 
 .box5 {
+    grid-area: section;
     background-color: rgb(0, 255, 213);
    
 }
 
 .box6 {
+    grid-area: footer;
     background-color: blue;
-    grid-column: 2 / 2;
-    grid-row: 1 / 2;
+   
 }

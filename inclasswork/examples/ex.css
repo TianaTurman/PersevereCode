@@ -1,0 +1,10 @@
+:root {
+   --main-color: blue;
+   
+  
+}
+
+h1 {
+    color: var(--second-color ,red);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -2,28 +2,46 @@
     background-color: yellow;
     height: 500px;
     width:500px;
-    position: relative;
+   
 }
+
 
 .red {
     background-color: red;
     width: 100px;
     height:100px;
+   
 }
 
 .blue {
     background-color: blue;
+    position: relative;
     width: 100px;
     height:100px;
-    position: absolute;
-    bottom: 20px;
+    
     
 }
+#parent {
+    background-color: rgb(8, 0, 255);
+    height: 500px;
+    width:500px;
    
-
-
+}
+   
 .green {
     background-color: green;
     width: 100px;
     height:100px;
+}
+
+h1 {
+    color: red;
+}
+a {
+    background-color: yellow;
+    border:10px solid hotpink;
+    color: hotpink;
+}
+a:visited {
+    color: red;
 }
